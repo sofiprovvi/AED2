@@ -365,8 +365,8 @@ class ABBTests {
             assertTrue(conjunto.pertenece(k));
             if (i % 2 == 0) {
                 conjunto.eliminar(k);
-
                 assertFalse(conjunto.pertenece(k));
+               
             }
         }
         assertEquals(NCLAVES / 2, conjunto.cardinal());
